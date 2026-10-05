@@ -1,0 +1,27 @@
+/* Light Luxury Progressive Enhancement & Smooth Scroll Support */
+
+.scene-hold {
+  display: contents;
+}
+
+/* Ensure no dark backgrounds bleed through */
+.cinematic, .calm-experience {
+  background: var(--ivory);
+  color: var(--brown);
+}
+
+/* Transformation Reveal Helpers */
+.comparison-options summary {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--brown-muted);
+}
+.comparison-options[open] {
+  margin-top: 14px;
+  padding: 16px;
+  background: var(--pearl);
+  border: 1px solid var(--champagne);
+  border-radius: 2px;
+}
